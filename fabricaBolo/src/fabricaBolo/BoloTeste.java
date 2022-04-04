@@ -11,6 +11,9 @@ public class BoloTeste {
 		bolo1.receita();
 		Bolo bolo2 = boloFactory.getBolo(Tipo.ABACAXI);
 		bolo2.sobreBolo();
-		bolo2.receita();
+		bolo2.receita
+			BoloAbstract boloAbstract = new BoloAbstract();
+		boloAbstract.receita();
+		boloAbstract.sobreBolo();
 	}
 }
